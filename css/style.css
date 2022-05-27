@@ -40,3 +40,51 @@ address{
         text-decoration: none;
         color:inherit;
 }
+
+.container {
+    width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*================= Header =====================*/
+
+.header-free {
+    background-color: #161F49;
+    text-align: center;
+    color: var(--white-bg-color);
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-nav {
+    margin-left: 195px;
+    margin-right: 172px;
+}
+
+.header-list {
+    display: flex;
+}
+
+
+
+.header-item:not(:last-child) {
+    margin-right: 37px;
+}
+
+.header-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.header-shop {
+    margin-left: auto;
+}
